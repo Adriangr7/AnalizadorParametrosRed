@@ -1,0 +1,27 @@
+# Ignorar archivos de entorno y temporales
+*.tmp
+*.log
+*.out
+nohup.out
+*.pid
+
+# Salidas y ejemplos
+results/
+outputs/
+examples/*.txt
+
+# Edidores / IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos comprimidos / builds
+*.tar.gz
+*.zip
+
+# Archivos de configuración local / secrets
+.env
+.*.env
